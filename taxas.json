@@ -1,0 +1,34 @@
+{
+  "versao": "2026-10-01",
+  "fonte": "Shopee, Central de Educação do Vendedor: Confira a Política de Comissão para vendedores CNPJ e CPF (última atualização: 01/10/2026)",
+  "descricao": "Comissão (%) + taxa fixa por item, por faixa de preço do item. Abaixo de R$9 a taxa fixa é metade do preço. A comissão já inclui a taxa de transação.",
+  "faixas": [
+    {
+      "ate": 8.99,
+      "pct": 20,
+      "fixa": null
+    },
+    {
+      "ate": 79.99,
+      "pct": 20,
+      "fixa": 4.5
+    },
+    {
+      "ate": 99.99,
+      "pct": 14,
+      "fixa": 16
+    },
+    {
+      "ate": 199.99,
+      "pct": 14,
+      "fixa": 20
+    },
+    {
+      "ate": 1000000000,
+      "pct": 14,
+      "fixa": 26
+    }
+  ],
+  "adicional_cpf": 3,
+  "adicional_cpf_regra": "Vendedor CPF com mais de 450 pedidos nos últimos 90 dias paga R$ 3 a mais por item"
+}
